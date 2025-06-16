@@ -18,7 +18,7 @@ public class LocalVariableExample {
 
     public void display(){  //User defined method
         int rollNumber = 25;
-     //   System.out.println("Value of age: " + age); // This will cause a compile-time error because x is not accessible here
+        //System.out.println("Value of age: " + age); // This will cause a compile-time error because x is not accessible here
         System.out.println("value of rollNum: " + rollNumber );
     }
 

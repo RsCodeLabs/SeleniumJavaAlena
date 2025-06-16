@@ -17,10 +17,11 @@ public class ForLoopExample {
         //Print number from 1 to 10 using for loop
 
         for(int i=1; i<=100;i++){
-            System.out.println(i);
+
             if(i==55){
-                break;
+                continue;
             }
+            System.out.println(i);
         }
 
     }

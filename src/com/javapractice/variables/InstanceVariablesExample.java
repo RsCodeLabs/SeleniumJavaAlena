@@ -8,6 +8,8 @@ public class InstanceVariablesExample {
 
     public static void main(String[] args) {
 
+
+
         InstanceVariablesExample object1=new InstanceVariablesExample();
         System.out.println("Age: " + object1.age); // Output: Age: 0
         System.out.println("Salary: " + object1.salary); // Output: Salary: 0
